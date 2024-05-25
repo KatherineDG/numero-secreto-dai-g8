@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Poppins-Bold.ttf", "./assets/fonts/Poppins-Medium.ttf", "./assets/fonts/Poppins-Regular.ttf"]
+        }
+      ]
+    ],
     "name": "numberle",
     "slug": "numberle",
     "version": "1.0.0",
