@@ -47,7 +47,7 @@ export default function App() {
         }
       }
     };
-    
+
     console.log(listaNumeroSecreto);
     setNumeroSecreto(listaNumeroSecreto);
     setJuegoEmpezado(true);
@@ -111,7 +111,7 @@ export default function App() {
           {
             text: 'Finalizar',
             onPress: () => {
-              // Reiniciar el juego en el mismo modo
+              // Juego desde el principio
               setJuegoEmpezado(false);
               setNumeroSecreto([]);
               setValoresIngresados(['', '', '', '']);
@@ -154,7 +154,7 @@ export default function App() {
           {
             text: 'Finalizar',
             onPress: () => {
-              // Reiniciar el juego en el mismo modo
+              // Reiniciar el juego del principio 
               setJuegoEmpezado(false);
               setNumeroSecreto([]);
               setValoresIngresados(['', '', '', '']);
@@ -175,16 +175,19 @@ export default function App() {
   const calcularCoincidencias = () => {
     let coincidenciaLugarCorrecto = 0;
     let coincidenciaOtroLugar = 0;
+    let noCoinciden = 0;
   
     for (let i = 0; i < numeroSecreto.length; i++) {
       if (numeroSecreto[i] === valoresIngresados[i]) {
         coincidenciaLugarCorrecto++;
       } else if (valoresIngresados.includes(numeroSecreto[i])) {
         coincidenciaOtroLugar++;
+      } else if (!valoresIngresados.includes(numeroSecreto[i])){
+        noCoinciden++;
       }
     }
   
-    const noCoinciden = numeroSecreto.length - coincidenciaLugarCorrecto - coincidenciaOtroLugar;
+    //const noCoinciden = numeroSecreto.length - coincidenciaLugarCorrecto - coincidenciaOtroLugar;
   
     //console.log('Coincidencia en el lugar correcto:', coincidenciaLugarCorrecto);
     //console.log('Coincidencia en otro lugar:', coincidenciaOtroLugar);
