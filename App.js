@@ -260,71 +260,71 @@ export default function App() {
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[0]} value={valoresIngresadosLog[0][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[0]} value={valoresIngresadosLog[0][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[0]} value={valoresIngresadosLog[0][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 1 ? brm[0] : brmlog[0][0]} |  Regular: {intentos === 1 ? brm[1] : brmlog[0][1]}  |  Mal: {intentos === 1 ? brm[2] : brmlog[0][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 1 ? brm[0] : brmlog[0][0]} |  Regular: {intentos === 1 ? brm[1] : brmlog[0][1]}  |  Mal: {intentos === 1 ? brm[2] : brmlog[0][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[1]} value={valoresIngresadosLog[1][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[1]} value={valoresIngresadosLog[1][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[1]} value={valoresIngresadosLog[1][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[1]} value={valoresIngresadosLog[1][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 2 ? brm[0] : brmlog[1][0]} |  Regular: {intentos === 2 ? brm[1] : brmlog[1][1]}  |  Mal: {intentos === 2 ? brm[2] : brmlog[1][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 2 ? brm[0] : brmlog[1][0]} |  Regular: {intentos === 2 ? brm[1] : brmlog[1][1]}  |  Mal: {intentos === 2 ? brm[2] : brmlog[1][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[2]} value={valoresIngresadosLog[2][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[2]} value={valoresIngresadosLog[2][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[2]} value={valoresIngresadosLog[2][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[2]} value={valoresIngresadosLog[2][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 3 ? brm[0] : brmlog[2][0]} |  Regular: {intentos === 3 ? brm[1] : brmlog[2][1]}  |  Mal: {intentos === 3 ? brm[2] : brmlog[2][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 3 ? brm[0] : brmlog[2][0]} |  Regular: {intentos === 3 ? brm[1] : brmlog[2][1]}  |  Mal: {intentos === 3 ? brm[2] : brmlog[2][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[3]} value={valoresIngresadosLog[3][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[3]} value={valoresIngresadosLog[3][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[3]} value={valoresIngresadosLog[3][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[3]} value={valoresIngresadosLog[3][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 4 ? brm[0] : brmlog[3][0]} |  Regular: {intentos === 4 ? brm[1] : brmlog[3][1]}  |  Mal: {intentos === 4 ? brm[2] : brmlog[3][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 4 ? brm[0] : brmlog[3][0]} |  Regular: {intentos === 4 ? brm[1] : brmlog[3][1]}  |  Mal: {intentos === 4 ? brm[2] : brmlog[3][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[4]} value={valoresIngresadosLog[4][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[4]} value={valoresIngresadosLog[4][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[4]} value={valoresIngresadosLog[4][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[4]} value={valoresIngresadosLog[4][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 5 ? brm[0] : brmlog[4][0]} |  Regular: {intentos === 5 ? brm[1] : brmlog[4][1]}  |  Mal: {intentos === 5 ? brm[2] : brmlog[4][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 5 ? brm[0] : brmlog[4][0]} |  Regular: {intentos === 5 ? brm[1] : brmlog[4][1]}  |  Mal: {intentos === 5 ? brm[2] : brmlog[4][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[5]} value={valoresIngresadosLog[5][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[5]} value={valoresIngresadosLog[5][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[5]} value={valoresIngresadosLog[5][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[5]} value={valoresIngresadosLog[5][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 6 ? brm[0] : brmlog[5][0]} |  Regular: {intentos === 6 ? brm[1] : brmlog[5][1]}  |  Mal: {intentos === 6 ? brm[2] : brmlog[5][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 6 ? brm[0] : brmlog[5][0]} |  Regular: {intentos === 6 ? brm[1] : brmlog[5][1]}  |  Mal: {intentos === 6 ? brm[2] : brmlog[5][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[6]} value={valoresIngresadosLog[6][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[6]} value={valoresIngresadosLog[6][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[6]} value={valoresIngresadosLog[6][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[6]} value={valoresIngresadosLog[6][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 7 ? brm[0] : brmlog[6][0]} |  Regular: {intentos === 7 ? brm[1] : brmlog[6][1]}  |  Mal: {intentos === 7 ? brm[2] : brmlog[6][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 7 ? brm[0] : brmlog[6][0]} |  Regular: {intentos === 7 ? brm[1] : brmlog[6][1]}  |  Mal: {intentos === 7 ? brm[2] : brmlog[6][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[7]} value={valoresIngresadosLog[7][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[7]} value={valoresIngresadosLog[7][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[7]} value={valoresIngresadosLog[7][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[7]} value={valoresIngresadosLog[7][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 8 ? brm[0] : brmlog[7][0]} |  Regular: {intentos === 8 ? brm[1] : brmlog[7][1]}  |  Mal: {intentos === 8 ? brm[2] : brmlog[7][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 8 ? brm[0] : brmlog[7][0]} |  Regular: {intentos === 8 ? brm[1] : brmlog[7][1]}  |  Mal: {intentos === 8 ? brm[2] : brmlog[7][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[8]} value={valoresIngresadosLog[8][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[8]} value={valoresIngresadosLog[8][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[8]} value={valoresIngresadosLog[8][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[8]} value={valoresIngresadosLog[8][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 9 ? brm[0] : brmlog[8][0]} |  Regular: {intentos === 9 ? brm[1] : brmlog[8][1]}  |  Mal: {intentos === 9 ? brm[2] : brmlog[8][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 9 ? brm[0] : brmlog[8][0]} |  Regular: {intentos === 9 ? brm[1] : brmlog[8][1]}  |  Mal: {intentos === 9 ? brm[2] : brmlog[8][2]}  </Text>
       <View style={styles.inputContainer}>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(0, text)} editable={inputsHabilitados[9]} value={valoresIngresadosLog[9][0] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(1, text)} editable={inputsHabilitados[9]} value={valoresIngresadosLog[9][1] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(2, text)} editable={inputsHabilitados[9]} value={valoresIngresadosLog[9][2] ?? ''}/>
           <TextInput style={styles.input} keyboardType='numeric' onChangeText={(text) => manejadorValorIngresado(3, text)} editable={inputsHabilitados[9]} value={valoresIngresadosLog[9][3] ?? ''}/>
+          <Text style={styles.brm}> Bien: {intentos === 10 ? brm[0] : brmlog[9][0]} |  Regular: {intentos === 10 ? brm[1] : brmlog[9][1]}  |  Mal: {intentos === 10 ? brm[2] : brmlog[9][2]}  </Text>
       </View>
-      <Text style={styles.brm}> Bien: {intentos === 10 ? brm[0] : brmlog[9][0]} |  Regular: {intentos === 10 ? brm[1] : brmlog[9][1]}  |  Mal: {intentos === 10 ? brm[2] : brmlog[9][2]}  </Text>
       <View style={styles.btsJuego}>
         <Button color={'#EE6E5C'} title="me rindo" onPress={manejadorBotonRendirse} />
         <Button color={'#3769B4'} title="comprobar" onPress={manejadorBotonComprobar} />
@@ -386,7 +386,6 @@ const styles = StyleSheet.create({
   },
 
   brm: {
-    marginBottom: 5,
     fontWeight: 'bold',
   },
 
